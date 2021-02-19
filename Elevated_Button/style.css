@@ -1,0 +1,24 @@
+div{
+    background-color: cyan;
+    margin: 50px;
+    color: blue;
+    font-size: 30pt;
+    padding: 50px;
+    width: 200px;
+    transition: 0.8s;
+    box-shadow: gray 10px 10px 10px;
+    border-radius: 10px;
+}
+
+div.btn:hover {
+    transform: translate(-10px,-10px);
+    box-shadow: gray 20px 20px 20px;
+    color: red;
+    transition: 0.5s;
+}
+div.btn:active {
+    transform: translate(5px , 5px);
+    box-shadow: gray 5px 5px 3px;
+    background-color: lightgreen;
+    transition: 0.2s
+}
