@@ -1,0 +1,29 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+    margin: 30px;
+    padding: 15px;
+    color: brown;
+}
+.one{
+    transform: scale(1.25,1.25);
+}
+.two{
+    transform: rotate(30deg);
+}
+.three{
+    transform: translate(30px,20px);
+}
+.four{
+    /* transform: translateX(200px) rotate(45deg); */
+    transform: rotate(45deg) translateX(200px);
+}
+.five{
+    /* transform: skewX(40deg) skewX(-40deg) skewY(40deg) skewY(-40deg); */
+    transform: skewX(40deg) skewY(-40deg) skewX(-40deg) skewY(40deg);
+}
+.six{
+    transform: skew(30deg,30deg); 
+    /* this is diamond */
+}
