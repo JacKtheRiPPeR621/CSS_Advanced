@@ -1,0 +1,35 @@
+div.container{
+    background-color: lightskyblue;
+    height: 400px;
+    width: 400px;
+}
+div.item{
+    background-color: firebrick;
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    margin: 20px;
+
+    animation: bounce 2s  infinite ;
+
+}
+div.one{
+    animation-timing-function: ease-in;
+}
+div.two{
+    animation-timing-function: ease-out;
+}
+div.three{
+    animation-timing-function: linear;
+}
+@keyframes bounce{
+    0%{
+
+    }
+    50%{
+        transform: translateY(300px);
+    }
+    100%{
+        
+    }
+}
