@@ -1,0 +1,30 @@
+.container{
+    height: 400px;
+    width: 400px;
+    display: flex;
+    margin: 40px;
+    background-color: blanchedalmond;
+    /* display: inline-flex; */
+    flex-wrap: wrap; /* wrap and wrap-reversed */
+    flex-direction: row; /*row and row-reversed*/
+
+    /* how items within a row aligned in order*/
+    justify-content: space-between; /* flex-start , flex-end , center , space-around */
+
+    /* align items within a row perpendicularly */
+    align-items: flex-end;  /* baseline : aligns the content of item div */  /* baseline , center , flex-start , flex-end */
+
+    /* how all the rows are aligned all together */
+    align-content: space-around;
+
+}
+
+.item{
+    border: dotted maroon 2px;
+    height: 50px;
+    width: 50px;
+    background-color: aqua;
+    color: darkred;
+    font-size: 20pt;
+    margin: 10px;
+}
