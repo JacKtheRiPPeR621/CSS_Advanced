@@ -1,0 +1,30 @@
+.container{
+    display: flex;
+    
+}
+
+.item{
+    background-color: brown;
+    height: 800px;
+    width: 600px;
+    margin: 40px;
+}
+
+@media( max-width: 1500px){
+    .container{
+        margin: 10px;
+        flex-wrap: wrap;
+    }
+}
+
+@media( max-width: 1200px){
+    .container{
+        flex-wrap: wrap;
+    }
+}
+
+@media( max-width: 900px){
+    .container{
+        flex-wrap: wrap;
+    }
+}
