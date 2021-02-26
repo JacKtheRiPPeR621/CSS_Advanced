@@ -9,13 +9,13 @@
     flex-direction: row; /*row and row-reversed*/
 
     /* how items within a row aligned in order*/
-    justify-content: space-between; /* flex-start , flex-end , center , space-around */
+    justify-content: space-between; /* flex-start , flex-end , center , space-around , space-between , space-evenly */
 
     /* align items within a row perpendicularly */
     align-items: flex-end;  /* baseline : aligns the content of item div */  /* baseline , center , flex-start , flex-end */
 
     /* how all the rows are aligned all together */
-    align-content: space-around;
+    align-content: space-around; /* flex-center , flex-end , center , stretch , space-between , space-around */
 
 }
 
@@ -27,4 +27,9 @@
     color: darkred;
     font-size: 20pt;
     margin: 10px;
+
+    text-align: center;
+
+    /* Vertical Alignment approx */
+    line-height: 50px;  /* if line height and height of block is same then the content will roughly in center */
 }
