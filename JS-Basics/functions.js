@@ -7,7 +7,7 @@ function B(){
     return 'B'
 }
 
-console.log(gamma())
+console.log(gamma())   /* Reference Error  */
 
 let gamma = function() {   /* Intialization  */
     return 'C'

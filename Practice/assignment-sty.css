@@ -1,0 +1,7 @@
+.one{
+    display: none;
+}
+.two:hover .one{
+    display: block;
+    background-color: brown;
+}
