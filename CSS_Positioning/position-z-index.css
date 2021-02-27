@@ -1,0 +1,59 @@
+.container{
+    height: auto;
+    width: 400px;
+    background-color: aquamarine;
+    margin: 10px;
+    z-index: 1;
+}
+
+.item{
+    height: 50px;
+    width: 50px;
+    background-color: cornflowerblue;
+    color: crimson;
+    border: dotted black 5px;
+    margin: 10px;
+    font-size: 20pt;
+    z-index: 3;
+}
+
+.one > .five{    /* .container.one > .item.five */
+    position: relative;     /* the element is positioned according to the normal flow of the document, and then offset relative to itself */
+    top: 10px;              /* In left and right, left takes precedence over right. Similarly top takes precedence over bottom  */
+    left: 30px;
+}
+
+.one > .four {
+    position: absolute;    /* element is removed from the normal document flow, and no space is created for the element in the page layout */
+    left: 100px;
+}
+
+.one > .one {
+    position: fixed;
+    left: 100px;
+}
+
+.container > .five{
+    position: relative;
+    z-index: 5;
+}
+
+.container > .six {
+    position: relative;
+    z-index: 4;
+}
+
+.container > .three{
+    position: sticky;
+    top: 30px;
+    bottom: 30px;
+    z-index: 2;
+}
+
+.item:nth-child(5n){
+    background-color: darkmagenta;
+}
+
+.container:nth-child(2n){
+    background-color: gold;
+}
